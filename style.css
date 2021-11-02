@@ -1,0 +1,118 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color:#BCD7D8;
+	color: #545F5F;
+	text-align: center;
+	font-family: 'Bitter', serif;
+}
+
+.body2 {
+	color: white;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 45px;
+	color:  white;
+}
+
+
+h2 {
+	color: #6b1c40;
+}
+
+h3{
+	color: #BCD7D8;
+	font-weight: bolder;
+}
+
+h4 {
+	color: #7a1c3d ;
+}
+
+.img-1 {
+	width: 300px;
+}
+
+ul {
+	list-style: none;
+	text-decoration: none;
+	padding: 0px;
+}
+
+ul li a {
+	
+	padding: 0px;
+	padding-left: 0px;
+
+}
+
+ul li {
+	display: inline;
+}
+
+ul li :hover {
+	background-color: #BCD7D8;
+}
+
+.img-2 {border-radius: 0%;
+width: 100px;
+
+}
+
+.img-3 {
+	border-radius: 0%;
+	width: 150px;
+}
+
+
+.socialbtn {
+	background-color: #ecc7cd;
+	padding: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.icons{
+	color: darkblue;
+	width: 30px;
+}
+
+.aligned
+{ display: inline; }
+
+.divmain{
+	background-image: url("images/flower2.jpg");
+	background-size: cover;
+    border: 5px solid #D3C0CD;
+    align-content: center;
+    margin: 24px;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.divbody{
+	background-color: white;
+    border: 5px solid #D3C0CD;
+    align-content: center;
+    margin: 24px;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.container{
+	margin: auto;
+    width: 800px;
+}
+
+@media (max-width: 600px) {
+  
+  .container {
+    width: 400px;}
+
+@media (max-width: 600px) {
+
+	.img-1 {width: 200px;}
+}
+
